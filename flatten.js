@@ -5,4 +5,6 @@ for(let i=0;i<a.length;i++){
         str.push(a[i][j])
     }
 }
-console.log(str)
+let data = new Set(str);
+let arr = [...data]
+    console.log(arr)
